@@ -16,7 +16,10 @@ if (personalMovieDB.count < 10) {
     alert("Вы класический зритель");
 } else if (personalMovieDB.count > 30) {
     alert("Вы киноман");
-} 
+} else {
+    // alert("Произошла ошибка");
+    console.log("Произошла ошибка");
+}
 
 
 for(let i = 1; i < 3; i++) {
